@@ -46,7 +46,9 @@ public class TeamsManager {
             }
         }
         return Teams.NONE;
-    }    public Teams getTeamFromPlayer(UUID playerUUID){
+    }
+
+    public Teams getTeamFromPlayer(UUID playerUUID){
         for(Map.Entry<Teams, List<UUID>> entry : this.playerTeams.entrySet()){
             if(isInTeam(entry.getKey(), playerUUID)){
                 return entry.getKey();

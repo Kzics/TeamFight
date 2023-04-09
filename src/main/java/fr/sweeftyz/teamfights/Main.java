@@ -28,10 +28,7 @@ public class Main extends JavaPlugin {
     private TeamsManager teamsManager;
     private GameManager gameManager;
     private HashMap<UUID, FastBoard> fastBoardHashMap;
-
-
     private ApiClient apiClient;
-
 
     private BlocksLimitHandler blocksLimitHandler;
     @Override
